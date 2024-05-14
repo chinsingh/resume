@@ -1,0 +1,91 @@
+orgs:
+-  name: SAP Labs, Bengaluru
+   include: true
+   tenure: 2021 - Present
+   designation: Developer
+   summary: Full-stack engineer/Prompt engineer in the product team responsible for the central application used by different SAP products to provision/manage cloud applications.
+   experiences:
+     - title: URM SDK
+       description: Developed a future-proof and developer-friendly SDK for a resource manager application, resulting in a 3-month acceleration of project delivery while achieving 97% code coverage.
+       include: true
+       templates:
+       topics:
+         - Unified Provisioning
+       tags: 
+     - title: UP Processes
+       description: Implemented generic automated processes for orchestrating life cycle operations across applications, eliminating the need for application-specific approaches and manual intervention.
+       include: false
+       templates:
+       topics:
+         - Unified Provisioning
+       tags:        
+     - title: Call Limit
+       description: Engineered rate-limiting functionality for REST APIs, ensuring optimal performance and enhanced security without impeding usage by consumers.
+       include: true
+       templates:
+       topics:
+         - Call Limit
+       tags:         
+     - title: Code Coverage
+       description: Increased code coverage by 8% through the creation of test doubles and unit tests.
+       include: true
+       templates:
+       topics:
+         - TDD
+       tags:  
+     - title: BO Development Checklist
+       description: Formulated development checklist and code templates to avoid common sources of errors while performing repetitive development tasks, increasing efficiency and reducing error rates.
+       include: false
+       templates:
+       topics:
+         - Documentation
+       tags:
+     - title: Documentation
+       description: Authored comprehensive OpenAPI specifications, troubleshooting wikis, development checklists and code templates for streamlined team workflows.            
+       include: true
+       templates:
+       topics:
+         - Documentation
+     - title: Self-Healing
+       description: Developed intelligent look-up mechanisms for relevant service definitions and child service executions. for efficient self-healing and automated executions.
+       include: true
+       templates:
+       topics:
+         - Self-Healing
+       tags:               
+     - title: Additional Responsibilities
+       description: Monitored quality, addressed issues, and managed incidents for optimal application performance.
+       include: false
+       templates:
+       topics:
+       tags:  
+     - title: Simplified Master Plan
+       description: Designed and developed simplified wizard and chat UIs for creating complex plans, increasing monthly plan creation from ~300 to ~500.                                 		    
+       include: true
+       templates:
+       topics:
+       tags:  
+
+- name: Deloitte USI, Hyderabad
+  include: true
+  tenure: 2019 - 2020
+  designation: Analyst
+  experiences:
+     - title: Mulesoft
+       description: Built and maintained RESTful APIs and Mulesoft applications for US-based Healthcare clients.
+       include: true
+       templates:
+       topics:
+       tags:     
+     - title: API Timeout
+       description: Reengineered an existing system API bringing down the response time by 45%, fixing request timeout issues.
+       include: false
+       templates:
+       topics:
+       tags:                          
+     - title: Training
+       description: Built web applications and microservices during training period using Java, SQL, JDBC, Hibernate and frameworks like Spring, Spring MVC and Spring Boot.
+       include: true
+       templates:
+       topics:
+       tags:                   

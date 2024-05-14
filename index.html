@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- JS Libraries -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"
+      integrity="sha512-CSBhVREyzHAjAFfBlIBakjoRUKp5h7VSweP0InR/pAJyptH7peuhCsqAI/snV+TwZmXZqoUklpXp6R6wMnYf5Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+    <script type="text/javascript" src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+    
+
+    <!-- Handlebar Templating Engine -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="print.css">
+  </head>
+
+  <!---------------------------------------------------------------------------------------------------------------------  -->
+  <body>
+    <div id="resume"></div>
+
+    <script id="resume-template" type="text/x-handlebars-template">
+      <!-- header -->
+      <div class="navbar">
+        <div class="navbar-content">
+          <h1 class="raleway navbar-brand to-upper">
+            <b>{{profile.firstname}}</b>
+            {{profile.lastname}}</h1>
+          <div class="navbar-contact">
+            <p><a href="tel:+919078802920">{{profile.ph}}</a></p>
+            <p><a href="mailto:chinsingh@outlook.in">{{profile.email}}</a></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- profile summary -->
+      <div id="summary">
+        <p> {{#findSummary profile.summaries}}{{/findSummary}} </p>
+        {{#each profile.achievements}}
+        {{#if include}}
+          {{#ifInTemplates templates}}
+            <div>
+              <ul>
+                <li><p>{{text}}</p></li>
+              </ul>
+            </div>
+          {{/ifInTemplates}}
+        {{/if}}
+      {{/each}}      
+      </div>
+
+
+      <!-- Work Experience -->
+      <h2 class="raleway headers to-upper">Experience</h2>
+      {{#each experience.orgs}}
+        {{#if include}}
+          <div class="org-header raleway">
+            <div class="org-name-desig">
+            <h3 class="to-upper org-name">{{name}}</h3>
+            <p>{{designation}}</p>
+            </div>
+            <p class="org-tenure">{{tenure}}</p>
+          </div>
+          <p>{{summary}}</p>
+          {{#each experiences}}
+            {{#if include}}
+              {{#ifInTemplates templates}}
+                <div>
+                  <ul>
+                    <li><p>{{description}}</p></li>
+                  </ul>
+                </div>
+              {{/ifInTemplates}}
+            {{/if}}
+          {{/each}}
+        {{/if}}
+      {{/each}}
+
+      <!-- Skills -->
+      <h2 class="raleway headers to-upper">Skills</h2>
+      
+
+        {{#each skills.groups}}
+        {{#if include}}
+        <div class="row">        
+            <div class="col-1"><p>{{name}}<p></div>
+            <div class="col-2"><p>{{skills}}</p></div>          
+        </div>
+        {{/if}}
+        {{/each}}
+
+      
+        <!-- Education -->
+      <h2 class="raleway headers to-upper">Education</h2>
+      {{#each education.qualifications}}
+        {{#if include}}
+        <div class="org-header raleway">
+            <div class="org-name-desig">
+            <h3 class="to-upper org-name">{{name}}</h3>
+            <p>{{institute}} ({{grade}})</p>
+            </div>
+            <p class="org-tenure">{{duration}}</p>
+          </div>
+        {{/if}}
+      {{/each}}
+      
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-linkedin">
+            <i class="fa fa-linkedin-square"></i>
+            <a href="https://www.linkedin.com/in/chinsingh" target="_blank">linkedin.com/in/chinsingh</a>
+          </div>
+          <div class="footer-site">
+            <span class="material-symbols-outlined">link</span>            
+            <a href="http://singhch.in">singhch.in</a>
+          </div>
+        </div>
+      
+    </script>
+</body>
+  <script src="util.js"></script>
+  <script src="hb-helpers.js"></script>
+  <script src="script.js"></script>
+  <script src="print.js"></script>
+</html>

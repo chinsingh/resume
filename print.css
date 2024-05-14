@@ -1,0 +1,31 @@
+@page {
+    size: A4;
+    margin: 0;
+  }
+  
+  @media print {
+    body {
+      padding-left: 20mm;
+      padding-right: 20mm;
+      padding-top: 8mm;
+      width: 210mm;
+      height: 297mm;    
+    }
+
+    #summary{
+        margin-top: 40px;
+    }
+    .headers{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    li{
+        margin-bottom: -5px;
+    } 
+    .org-header{
+        margin-top: -10px;
+        margin-bottom: -10px;    
+    }
+    
+  }  

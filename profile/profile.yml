@@ -1,0 +1,41 @@
+firstname: Chinmay
+lastname: Singh
+email: chinsingh@outlook.in
+ph: +91 9078802920
+summaries:
+  - text: Analytical and creative full-stack developer with 4.5 years of experience in application design and development, adept in Java, JavaScript, SQL, Spring and React, currently part of a cross-functional team responsible for the central application for managing SAP and SAP partner cloud applications and operations.
+    isDefault: false
+    templates:
+      - default
+      - template1
+  - text: |
+          Dynamic and resourceful full-Stack developer with 4.5 years of experience 
+          specializing in application design and development for managing cloud lifecycle in a cross-functional team.
+          Proficient in Java, JavaScript, SQL, Spring, and React. Achievements include:
+    isDefault: true
+    templates:
+  - text: |
+          Dynamic and resourceful full-Stack developer with 4.5 years of experience specializing in application design and development.
+          Proficient in Java, JavaScript, SQL, Spring, and React. 
+          Proven track record in a cross-functional team, developing the central application for managing SAP and partner cloud lifecycle. 
+          Achievements include a 93% acceleration in client integration, fortifying API security and successful deployment of 3 major releases, under stringent deadlines, 1-3 months ahead of schedule. 
+          Known for excellent problem-solving skills and effective communication. 
+          Committed to driving innovation and delivering robust solutions in a collaborative environment.
+    isDefault: false
+    templates:
+  - text: Detail-oriented Software Engineer
+    templates:
+      - abap
+  - text: Creative Problem Solver
+    templates:
+      - template3
+achievements:
+  - text: Successful deployment of 3 major releases under stringent deadlines, 1-3 months ahead of schedule.
+    include: true
+    templates:
+  - text: 93% acceleration in client integration via onboarding service.
+    include: true
+    templates:
+  - text: Additional revenue and 75% reduction in vulnerability reports by fortification of API security. 
+    include: true
+    templates: 

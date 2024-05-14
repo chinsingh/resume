@@ -1,0 +1,25 @@
+groups:
+  - name: Backend
+    include: true
+    skills: Java 8+/JEE, Spring, Hibernate, SQL
+    templates:
+  - name: Frontend
+    include: true
+    skills: JavaScript, React, HTML, CSS
+    templates:
+  - name: Tools
+    include: true
+    skills: Git, Maven, Selenium. Postman, Jira, IntelliJ, Eclipse
+    templates:
+  - name: Architecture
+    include: true
+    skills: Object Oriented Design, REST, Microservices, Data Modelling
+    templates:
+  - name: Methodologies
+    include: true
+    skills: Test-driven Development, Agile/Scrum, Pair Programming, CI/CD
+    templates:
+  - name: Soft skills
+    include: true
+    skills: Communication, Leadership,  Problem Solving, Presentation
+    templates:
