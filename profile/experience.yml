@@ -3,10 +3,14 @@ orgs:
    include: true
    tenure: 2021 - Present
    designation: Developer
-   summary: Full-stack engineer/Prompt engineer in the product team responsible for the central application used by different SAP products to provision/manage cloud applications.
+   summary: |
+             Full-stack engineer/Prompt engineer contributing towards the developement and optimization 
+             of the central cloud lifecycle management application integral to various SAP and SAP partner products. 
    experiences:
      - title: URM SDK
-       description: Developed a future-proof and developer-friendly SDK for a resource manager application, resulting in a 3-month acceleration of project delivery while achieving 97% code coverage.
+       description: |
+                     Spearheaded the development of a robust SDK for a resource manager application, 
+                     expediting project delivery by 3 months and achieving 97% code coverage.
        include: true
        templates:
        topics:
@@ -20,7 +24,9 @@ orgs:
          - Unified Provisioning
        tags:        
      - title: Call Limit
-       description: Engineered rate-limiting functionality for REST APIs, ensuring optimal performance and enhanced security without impeding usage by consumers.
+       description: |
+                      Engineered rate-limiting functionality and other security measures for REST APIs,  
+                      ensuring optimal performance and enhanced security, in addition to brining revenue by charging API consumers on usage.
        include: true
        templates:
        topics:
