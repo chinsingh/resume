@@ -31,9 +31,15 @@ orgs:
        templates:
        topics:
          - Call Limit
-       tags:         
+       tags:  
+     - title: Simplified Master Plan
+       description: Designed and developed simplified wizard and chat UIs for creating complex plans, increasing monthly plan creation from ~300 to ~500.                                 		    
+       include: true
+       templates:
+       topics:
+       tags:                
      - title: Code Coverage
-       description: Increased code coverage by 8% through the creation of test doubles and unit tests.
+       description: Boosted code coverage by 8% via comprehensive test doubles and unit testing.
        include: true
        templates:
        topics:
@@ -54,7 +60,7 @@ orgs:
          - Documentation
      - title: Self-Healing
        description: Developed intelligent look-up mechanisms for relevant service definitions and child service executions. for efficient self-healing and automated executions.
-       include: true
+       include: false
        templates:
        topics:
          - Self-Healing
@@ -62,12 +68,6 @@ orgs:
      - title: Additional Responsibilities
        description: Monitored quality, addressed issues, and managed incidents for optimal application performance.
        include: false
-       templates:
-       topics:
-       tags:  
-     - title: Simplified Master Plan
-       description: Designed and developed simplified wizard and chat UIs for creating complex plans, increasing monthly plan creation from ~300 to ~500.                                 		    
-       include: true
        templates:
        topics:
        tags:  
