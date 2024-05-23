@@ -27,13 +27,13 @@ orgs:
        description: |
                       Engineered rate-limiting functionality and other security measures for REST APIs,  
                       ensuring optimal performance and enhanced security, in addition to brining revenue by charging API consumers on usage.
-       include: true
+       include: false
        templates:
        topics:
          - Call Limit
        tags:  
      - title: Simplified Master Plan
-       description: Designed and developed simplified wizard and chat UIs for creating complex plans, increasing monthly plan creation from ~300 to ~500.                                 		    
+       description: Designed and developed a wizard interface, in addition to a chat interface using LLM, for creating complex plans, increasing monthly plan creation from ~300 to ~500.                                 		    
        include: true
        templates:
        topics:
@@ -71,6 +71,13 @@ orgs:
        templates:
        topics:
        tags:  
+     - title: Initiatives
+       description: "Initiatives: Built applications for SAP Office transport facilities, and a retrospective application for SAP's scrum teams."
+       include: true
+       templates:
+       topics:
+       tags:  
+    
 
 - name: Deloitte USI, Hyderabad
   include: true
@@ -91,7 +98,16 @@ orgs:
        tags:                          
      - title: Training
        description: Built web applications and microservices during training period using Java, SQL, JDBC, Hibernate and frameworks like Spring, Spring MVC and Spring Boot.
+       include: false
+       templates:
+       topics:
+       tags:          
+     - title: Call Limit
+       description: |
+                      Engineered rate-limiting functionality and other security measures for REST APIs,  
+                      ensuring optimal performance and enhanced security, in addition to brining revenue by charging API consumers on usage.
        include: true
        templates:
        topics:
-       tags:                   
+         - Call Limit
+       tags:                

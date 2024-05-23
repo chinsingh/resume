@@ -36,6 +36,9 @@ achievements:
   - text: 93% acceleration in client integration via onboarding service.
     include: true
     templates:
-  - text: Additional revenue and 75% reduction in vulnerability reports by fortification of API security. 
+  - text: 2 patented mechanisms for optimized mass execution of services, reducing downtime by 62%.
+    include: true
+    templates:    
+  - text: 75% reduction in vulnerability reports by rate-limiting service, while also generating additional revenue.  
     include: true
     templates: 

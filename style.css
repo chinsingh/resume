@@ -26,6 +26,7 @@ li::marker{
   .headers{
     letter-spacing: 5px;
     font-weight: bold;
+    margin-top: 30px;
   }
 
   .to-upper{
@@ -98,7 +99,7 @@ a {
 /* Work Experience / Organizations  */
 .org-header{
     display: flex;
-    margin-top: -20px;
+    margin-top: -15px;
     margin-bottom: -20px;
     justify-content: space-between;
     align-items: center;    
