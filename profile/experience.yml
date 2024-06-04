@@ -1,7 +1,7 @@
 orgs:
 -  name: SAP Labs, Bengaluru
    include: true
-   tenure: 2021 - Present
+   tenure: Jan 2021 - Present
    designation: Developer
    summary: |
              Full-stack engineer/Prompt engineer contributing towards the developement and optimization 
@@ -81,7 +81,7 @@ orgs:
 
 - name: Deloitte USI, Hyderabad
   include: true
-  tenure: 2019 - 2020
+  tenure: Aug 2019 - Aug 2020
   designation: Analyst
   experiences:
      - title: Mulesoft
