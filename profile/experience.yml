@@ -4,7 +4,7 @@ orgs:
    tenure: Jan 2021 - Present
    designation: Developer
    summary: |
-             Full-stack engineer/Prompt engineer contributing towards the developement and optimization 
+             Full-stack engineer engineer contributing towards the developement and optimization 
              of the central cloud lifecycle management application integral to various SAP and SAP partner products. 
    experiences:
      - title: URM SDK
@@ -33,7 +33,7 @@ orgs:
          - Call Limit
        tags:  
      - title: Simplified Master Plan
-       description: Designed and developed a wizard interface, in addition to a chat interface using LLM, for creating complex plans, increasing monthly plan creation from ~300 to ~500.                                 		    
+       description: Designed and developed a wizard interface, in addition to a chat interface using LLM, for creating complex plans for scheduling automated mass activities on groups of systems, increasing monthly plan creation from ~300 to ~500.                                 		    
        include: true
        templates:
        topics:
@@ -54,13 +54,13 @@ orgs:
        tags:
      - title: Documentation
        description: Authored comprehensive OpenAPI specifications, troubleshooting wikis, development checklists and code templates for streamlined team workflows.            
-       include: true
+       include: false
        templates:
        topics:
          - Documentation
      - title: Self-Healing
-       description: Developed intelligent look-up mechanisms for relevant service definitions and child service executions. for efficient self-healing and automated executions.
-       include: false
+       description: Developed intelligent look-up mechanisms for identifying relevant automated services from tickets, for efficient self-healing and automated executions.
+       include: true
        templates:
        topics:
          - Self-Healing
@@ -73,7 +73,7 @@ orgs:
        tags:  
      - title: Initiatives
        description: "Initiatives: Built applications for SAP Office transport facilities, and a retrospective application for SAP's scrum teams."
-       include: true
+       include: false
        templates:
        topics:
        tags:  
@@ -105,7 +105,7 @@ orgs:
      - title: Call Limit
        description: |
                       Engineered rate-limiting functionality and other security measures for REST APIs,  
-                      ensuring optimal performance and enhanced security, in addition to brining revenue by charging API consumers on usage.
+                      ensuring optimal performance and enhanced security, in addition to bringing revenue by charging API consumers on usage.
        include: true
        templates:
        topics:
